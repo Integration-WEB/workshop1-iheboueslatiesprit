@@ -215,19 +215,35 @@ ________________________
     background-color: var(--primary-100);
 }
 /* Extra small devices (phones, 600px and down) */
-
+@media screen and (max-width: 600px){
+    .media__container{ 
+    background-color: var(--primary-100); }
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-
+@media screen and (min-width: 600px){
+    .media__container{ 
+    background-color: var(--primary-300); }
+}
 
 
 /* Medium devices (landscape tablets, 768px and up) */
-
+@media screen and (min-width: 768){
+    .media__container{ 
+    background-color: var(--primary-400); }
+}
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-
+@media screen and (min-width: 992px){
+    .media__container{ 
+    background-color: var(--primary-500); }
+}
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px){
+    .media__container{ 
+    background-color: var(--primary-600); }
+}
